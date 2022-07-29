@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+:root{
+  --grey: #636C79;
+  --green: #8BB7A2;
+  --dark-blue: #10181D;
+  --white:#ffffff;
+  --white-grey:#ececec;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins",sans-serif;
+}
+
+
+/* Global CSS */
+
+.btn {
+  background: var(--green);
+  padding: 12px 48px;
+  border: none;
+  color: var(--white);
+  font-size: 20px;
+}
+
+
+/* Header Section */
+.header{
+  background: var(--grey);
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+
+}
+
+ul li{
+  display: inline;
+  margin-left: 60px;
+  color: var(--white);
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 2fr 2fr;
+  
+}
+.hero-left img{
+  padding: 20px 60px;
+  width: 28rem;
+  height: 580px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.hero-right{
+  padding: 20px 30px;
+}
+.hero h1{
+  font-family: Poppins;
+  font-size: 4.4rem;
+  color: var(--white);
+  line-height: 75px;
+  margin-top: 30px;
+  flex-direction:column-reverse
+}
+
+.hero p{
+  font-family: Poppins;
+  font-size: 1.2rem;
+  color: var(--white-grey);
+  flex-direction:column-reverse;
+  margin: 40px 0px;
+}
+
+
+
+button[type="submit"]{
+  position: relative;
+  background: var(--green);
+  padding: 12px 48px;
+  border: none;
+  color: var(--white);
+  font-size: 20px;
+  left:200px;
+}
+
+.subscribe{
+  background: var(--white);
+  margin: 50px 0px;
+  padding: 10px 0px;
+  display: flex;
+  margin-right: 20px;
+}
+input[type="email"]{
+  padding-left: 20px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+
+
+/* Connect Section */
+
+.connect{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading h1{
+  justify-content: center;
+  margin: 50px 0px;
+  font-size: 2rem;
+  text-align: center;
+ 
+}
+
+.count{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.connect >div img{
+  display: flex;
+  margin: 75px auto;
+  justify-content: center;
+  width: 1200px;
+  height: 480px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 100% 10%
+}
+
+
+.left-right-1{
+  display: flex;
+  flex: 1fr 1fr;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+
+/* Section 01 and 03 */
+
+.content-left-1{
+  width: 30rem;
+  padding-left: 50px;
+}
+
+
+.content-left-1 h3{
+  padding-bottom: 30px;
+  font-size: 35px;
+  margin-top:40px;
+}
+
+.content-left-1 p{
+  font-family: Poppins;
+  font-size: 1.2rem;
+  color: var(--grey);
+  flex-direction:column-reverse;
+  margin-bottom:20px;
+ 
+}
+
+.content-right-1 img{
+    padding: 20px 60px;
+    width: 30rem;
+    height: 400px;
+    object-fit: cover;
+    object-position: right center;
+}
+
+
+/* Inner Section 2  */
+
+.left-right-2 {
+  display: flex;
+  flex: 1fr 1fr;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+.content-left-2 img{
+  padding: 20px 60px;
+  width: 30rem;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.content-right-2 h3{
+  padding-bottom: 30px; 
+  font-size: 35px;
+  margin-top:10px;
+}
+
+.content-right-2 p{
+  font-family: Poppins;
+  font-size: 1.2rem;
+  color: var(--grey);
+  flex-direction:column-reverse;
+  margin-bottom:20px;
+ 
+}
+
+.content-right-2{
+  padding-left: 130px;
+  margin: 50px 0px;
+}
+
+
+/* Profile Section */
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 40px;
+}
+
+.heading-2{
+  display: flex;
+  flex: 50% 50%;
+  padding-bottom: 20px; 
+}
+
+.heading-2 h3{
+ font-size: 1.7rem;
+}
+
+.heading-2 p{
+  font-size: 1rem;
+  margin-left: 4rem;
+  padding-top:12px ;
+ }
+
+
+/* People card Section */
+
+.our-people{
+  display: flex; 
+  flex-direction: column;  
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+.people{
+  display: flex; 
+  justify-content: center;
+}
+
+.people-card img{
+  width: 20rem;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.people-card h4{
+  font-size: 1.3rem;
+  margin: 10px 0px;
+}
+
+.last-btn{
+  margin-top:20px;
+  margin-bottom: 10px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Footer Section */
+
+.footer-wraper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: var(--dark-blue);
+ 
+}
+.footer-wraper .footer {
+  max-width: 78rem;
+  margin: 0 auto;
+  color: var(--white);
+}
+.footer-wraper .footer .footer-logo {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  align-items: center;
+}
+.footer-wraper .footer .footer-logo ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0px;
+}
+.footer-wraper .footer .footer-logo ul li span {
+  background-color: rgba(255, 255, 255, 0.093);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 500px;
+}
+.footer-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.footer-navbar .navbar-list h4 {
+  padding-bottom: 20px;
+  font-size: 1.2rem;  
+  font-weight: normal;
+}
+.footer-navbar .navbar-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  color: var(--text-gray);
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: -60px;
+}
+.footer-navbar .navbar-list ul li {
+  cursor: pointer;
+}
+.footer .hr {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.093);
+  width: 100%;
+  display: block;
+}
