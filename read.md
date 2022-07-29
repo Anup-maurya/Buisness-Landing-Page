@@ -8,7 +8,7 @@
 
 ![name](https://img.shields.io/badge/Anup--Maurya-lightgrey)
 
-## Project 12 [Live Link](https://live-proj-12.netlify.app)
+## Project 12 [Live Link](https://business-landing-webpage.netlify.app/)
 
 -   Skills Gained in this project
     -   Learned to create Subscribe Section.
